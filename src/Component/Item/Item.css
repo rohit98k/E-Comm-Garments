@@ -1,0 +1,27 @@
+.price {
+  display: flex;
+  gap: 5px;
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+.popular p {
+  color: hsl(0, 0%, 9%);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.main {
+  width: 15rem;
+}
+
+.main:hover {
+  transform: scale(1.008);
+}
+
+.card-body button:hover {
+  border: none;
+  background: #f43c83;
+}

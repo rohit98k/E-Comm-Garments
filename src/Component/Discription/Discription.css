@@ -1,0 +1,33 @@
+.discriptionbox {
+  margin: 50px 100px;
+}
+
+.discriptionbox-navigator {
+  display: flex;
+}
+
+.discriptionbox-navbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  width: 151px;
+  height: 50px;
+  border: 1px solid #d0d0d0;
+  cursor: pointer;
+}
+
+.dual {
+  background: #fbfbfb;
+  color: #555;
+}
+
+.discriptionbox-discription {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #d0d0d0;
+  padding: 28px;
+  padding-bottom: 30px;
+}

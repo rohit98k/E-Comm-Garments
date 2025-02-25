@@ -1,0 +1,36 @@
+.top h1 {
+  color: #171717;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.top hr {
+  width: 200px;
+  height: 4px;
+  border-radius: 10px;
+  background: #252525;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.relatedProduct {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  padding-left: 120px;
+}
+
+.relatedProduct-item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+  cursor: pointer;
+}
